@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       // darkTheme: ThemeData.dark(),
-      home: MyHomePage(title: 'Fluttermoji'),
+      home: MyHomePage(title: 'Avatar Maker'),
     );
   }
 }

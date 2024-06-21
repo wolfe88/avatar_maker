@@ -1,4 +1,4 @@
-library fluttermoji;
+library avatar_maker;
 
 export './fluttermojiCustomizer.dart';
 export './fluttermojiCircleAvatar.dart';
