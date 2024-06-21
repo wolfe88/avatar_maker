@@ -50,8 +50,6 @@ jobs:
       - run: flutter doctor
       - name: Get dependencies
         run: flutter pub get
-      - name: Setup .env
-        run: cp .env.template .env
       - name: Generate files
         run: |
           flutter pub run build_runner build
