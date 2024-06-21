@@ -1,3 +1,8 @@
+## Unreleased
+ * ...
+
+---
+# Fluttermoji legacy CHANGELOG
 ## [1.0.2] - 26/03/2023
  * Upgrades dependencies
 
