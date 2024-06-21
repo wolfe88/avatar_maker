@@ -38,5 +38,6 @@ Tick the checkboxes to confirm if the checks were successful or not. *(All that 
 - [ ] Make sure to add either one of the following labels: `version: Major`,`version: Minor` or `version: Patch`.
 - [ ] Running `flutter analyze` completes with _"No issues found!"_ 
 - [ ] I have made corresponding changes to the documentation and/or comments
+- [ ] I have updated the `./CHANGELOG.md`
 
 > If you have missed any of the checks above, please go ahead and perform them, it'll take just a few minutes.
