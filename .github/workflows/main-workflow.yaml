@@ -66,6 +66,7 @@ jobs:
     name: Create GitHub release
     needs:
       - get_version
+      - tests
     runs-on: ubuntu-latest
     steps:
       - name: Create pre-release
