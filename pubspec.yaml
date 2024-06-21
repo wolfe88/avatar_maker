@@ -1,10 +1,9 @@
-name: fluttermoji
+name: avatar_maker
 description: A light-weight and highly customizable SVG avatar library for
   Flutter apps. Provides a Customizer Widget, CircleAvatar and other utility
   functions that are ready-to-use.
-version: 1.0.2
-# author: Suraj Kumar
-homepage: https://github.com/psk907/fluttermoji
+version: 0.0.0
+homepage: https://github.com/RoadTripMoustache/avatar_maker
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
