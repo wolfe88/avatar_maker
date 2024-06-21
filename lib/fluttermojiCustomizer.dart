@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:fluttermoji/defaults.dart';
-import 'package:fluttermoji/fluttermojiSaveWidget.dart';
-import 'package:fluttermoji/fluttermojiThemeData.dart';
+import 'package:avatar_maker/defaults.dart';
+import 'package:avatar_maker/fluttermojiSaveWidget.dart';
+import 'package:avatar_maker/fluttermojiThemeData.dart';
 import 'fluttermoji_assets/fluttermojimodel.dart';
 import 'package:get/get.dart';
 import 'fluttermojiController.dart';

@@ -15,7 +15,7 @@ class FacialHair {
     String? colorHex = facialHairColor[fhColor];
 
     Map<String, dynamic> facialHair = {
-      "Nothing": '''        
+      "Nothing": '''
         ''',
       "Full Beard": '''
         <g id="Facial-Hair/Beard-Medium" transform="translate(-28.000000, -8.000000)">

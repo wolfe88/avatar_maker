@@ -1,5 +1,5 @@
-# fluttermoji  <img src="https://user-images.githubusercontent.com/37346450/103101129-1b9a2100-463c-11eb-8a94-b6fbe44bf00f.png" align="right" height="150" />
-![Pub Version](https://img.shields.io/pub/v/fluttermoji) [![Generic badge](https://img.shields.io/badge/demo-LIVE-green.svg)](https://psk907.github.io/fluttermoji/) [![GitHub stars](https://img.shields.io/github/stars/psk907/fluttermoji?style=social)](https://github.com/psk907/fluttermoji/stargazers) [![GitHub stars](https://img.shields.io/badge/DM-me-blue?style=flat&logo=telegram)](https://t.me/psk907)
+# Avatar_Maker  
+![Pub Version](https://img.shields.io/pub/v/avatar_maker) [![Generic badge](https://img.shields.io/badge/demo-LIVE-green.svg)](https://RoadTripMoustache.github.io/avatar_maker/) [![GitHub stars](https://img.shields.io/github/stars/RoadTripMoustache/avatar_maker?style=social)](https://github.com/psk907/fluttermoji/stargazers) 
 
 A light-weight and highly customizable SVG graphic set for Flutter, which provides a Customizer Widget, CircleAvatar and other utility functions.
 
@@ -7,15 +7,15 @@ This package provides you three easy-to-use widgets -
 
 | Name | Description | Screenshot | 
 |--------|----------|---------- |
-|FluttermojiCircleAvatar | Use your fluttermoji anywhere in your Flutter app with a simple customizable widget. Supports material dark theme too.| ![1608830483994](https://user-images.githubusercontent.com/37346450/103071632-009ec100-45ea-11eb-97c4-96c9ec67e204.gif)
-|FluttermojiCustomizer | A comprehensize UI to customize the user's fluttermoji. Offers previews of each individual component and whose looks can be tweaked with a `FluttermojiThemeData`|![1608827561239](https://user-images.githubusercontent.com/37346450/154008536-a687828c-dc9d-4a62-aa11-b800d4fb7763.jpg)
-|FluttermojiSaveWidget | Renders a save button by default OR can be used as an [InkWell] wrapper for the [child] widget.|![1608827561239](https://user-images.githubusercontent.com/37346450/154008545-8325af7b-58a2-4419-8544-929ffbdbb9ff.jpg)
+|FluttermojiCircleAvatar | Use your fluttermoji anywhere in your Flutter app with a simple customizable widget. Supports material dark theme too.| ![1608830483994](https://user-images.githubusercontent.com/37346450/103071632-009ec100-45ea-11eb-97c4-96c9ec67e204.gif)|
+|FluttermojiCustomizer | A comprehensize UI to customize the user's fluttermoji. Offers previews of each individual component and whose looks can be tweaked with a `FluttermojiThemeData`|![1608827561239](https://user-images.githubusercontent.com/37346450/154008536-a687828c-dc9d-4a62-aa11-b800d4fb7763.jpg)|
+|FluttermojiSaveWidget | Renders a save button by default OR can be used as an [InkWell] wrapper for the [child] widget.|![1608827561239](https://user-images.githubusercontent.com/37346450/154008545-8325af7b-58a2-4419-8544-929ffbdbb9ff.jpg)|
 
 ******
 The appearance of the widgets can be tweaked with `FluttermojiThemeData`. It let's you change things like the customizer's background colours, the box decoration etc.
 ******
 
-Use the given utility functions to send and receive Fluttermoji data from your server/DB efficiently.
+Use the given utility functions to send and receive Avatar_Maker data from your server/DB efficiently.
 
 | Function Prototype | Description | 
 |------------------|---------------|
@@ -47,7 +47,7 @@ SVG Assets used are derived from [getavataaars.com](https://getavataaars.com/) .
 	```
 2. Add the following import to your .dart file
 	```dart
-	import 'package:fluttermoji/fluttermoji.dart';
+	import 'package:avatar_maker/fluttermoji.dart';
 	```
 3. Add the FluttermojiCircleAvatar widget to display your Fluttermoji where needed.
 	```dart
@@ -74,6 +74,7 @@ The package offers a ton of features in the simplest way possible, however there
 - SVG assets from [Fang-Pen Lin](getAvataars.com)'s  [GitHub repository](https://github.com/fangpenlin/avataaars-generator)
 - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 - Animated [GIF](https://user-images.githubusercontent.com/37346450/103071632-009ec100-45ea-11eb-97c4-96c9ec67e204.gif) designed by [Reesha Shenoy](https://github.com/reeshaa) 
+- Original code from [psk907/fluttermoji](https://github.com/psk907/fluttermoji)
 
 ## Community
 If you find any issues or have some feedback, please raise the same on the GitHub repo or contact me directly.
