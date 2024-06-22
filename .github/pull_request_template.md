@@ -35,7 +35,6 @@ Tick the checkboxes to confirm if the checks were successful or not. *(All that 
 - [ ] I have tested my changes on **iOS**
 - [ ] My changes generate no new warnings in the IDE
 - [ ] I have added/updated tests.
-- [ ] Make sure to add either one of the following labels: `version: Major`,`version: Minor` or `version: Patch`.
 - [ ] Running `flutter analyze` completes with _"No issues found!"_ 
 - [ ] I have made corresponding changes to the documentation and/or comments
 - [ ] I have updated the `./CHANGELOG.md`
