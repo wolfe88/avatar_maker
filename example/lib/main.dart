@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fluttermoji Demo',
+      title: 'Avatar Maker Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       // darkTheme: ThemeData.dark(),
@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Text(
-              "Use your Fluttermoji anywhere\nwith the below widget",
+              "Use your Avatar Maker anywhere\nwith the below widget",
               style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
               textAlign: TextAlign.center,
             ),

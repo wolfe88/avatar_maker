@@ -1,5 +1,6 @@
 ## Unreleased
-
+### Fixed
+- Example configurations
 
 ## [0.1.0] -30/06/2024
 ### Added
