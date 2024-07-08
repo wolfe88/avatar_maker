@@ -1,6 +1,6 @@
 # AvatarMakerRandomWidget
 
-![AvatarMakerRandomWidget](https://github.com/RoadTripMoustache/avatar_maker/assets/36586573/5a20d383-2287-417c-975f-99373fe59b70)
+![AvatarMakerRandomWidget](https://github.com/RoadTripMoustache/avatar_maker/assets/36586573/2f81c840-9c16-40db-852b-f1da1aad8811)
 
 Renders a randomizer button by default OR can be used as an [InkWell] wrapper for the [child] widget. It changes the avatar with random properties for every displayed property categories.
 
