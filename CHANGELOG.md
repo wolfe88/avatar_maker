@@ -1,4 +1,7 @@
 ## Unreleased
+
+
+## [0.2.0] - 08/07/2024
 ### Added 
 - Add a reset button [#15](https://github.com/RoadTripMoustache/avatar_maker/issues/15)
 - Add a randomizer button [#16](https://github.com/RoadTripMoustache/avatar_maker/issues/14)
@@ -7,7 +10,7 @@
 - Example configurations
 - README
 
-## [0.1.0] -30/06/2024
+## [0.1.0] - 30/06/2024
 ### Added
 - New colors for facial hairs, hairs & outfits
 - Documentation
