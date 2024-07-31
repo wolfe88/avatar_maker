@@ -158,6 +158,18 @@ class AvatarMakerController extends GetxController {
     updatePreview(newAvatarMakerSVG: avatarSVG);
   }
 
+  String returnAvatarSvgFromJson({String? jsonAvatarOptions}) {
+    // Update the selectedOptions if jsonAvatarOptions is not null
+    if (jsonAvatarOptions != null) {
+      selectedOptions = OptionsService.jsonDecodeSelectedOptions(
+          this.propertyCategories, jsonAvatarOptions);
+    }
+
+    // Get the SVG to display and store
+    final String avatarSVG = drawAvatarSVG();
+    return avatarSVG;
+  }
+
   /// Generates a [String] SVG from the [selectedOptions] stored.
   String drawAvatarSVG() {
     return AvatarService.drawSVG(
