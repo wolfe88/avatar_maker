@@ -63,7 +63,7 @@ final PropertyCategory FacialHairColor = PropertyCategory(
   },
   iconFile: "assets/icons/facial_hair_color.svg",
   properties: FacialHairColors.values,
-  toDisplay: true,
+  toDisplay: false,
   defaultValue: FacialHairColors.Black,
 );
 final PropertyCategory FacialHairType = PropertyCategory(
@@ -93,7 +93,7 @@ final PropertyCategory HairColor = PropertyCategory(
   },
   iconFile: "assets/icons/hair_color.svg",
   properties: HairColors.values,
-  toDisplay: true,
+  toDisplay: false,
   defaultValue: HairColors.Black,
 );
 final PropertyCategory MouthType = PropertyCategory(
@@ -113,7 +113,7 @@ final PropertyCategory NoseType = PropertyCategory(
   },
   iconFile: "assets/icons/noses.svg",
   properties: Noses.values,
-  toDisplay: false,
+  toDisplay: true,
   defaultValue: Noses.Default,
 );
 final PropertyCategory OutfitColor = PropertyCategory(
@@ -123,7 +123,7 @@ final PropertyCategory OutfitColor = PropertyCategory(
   },
   iconFile: "assets/icons/outfit_color.svg",
   properties: OutfitColors.values,
-  toDisplay: true,
+  toDisplay: false,
   defaultValue: OutfitColors.PastelBlue,
 );
 final PropertyCategory OutfitType = PropertyCategory(
