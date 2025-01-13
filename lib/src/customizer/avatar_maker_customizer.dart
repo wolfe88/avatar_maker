@@ -15,6 +15,12 @@ import "package:get/get_state_manager/src/simple/list_notifier.dart";
 /// It is advised that a [AvatarMakerCircleAvatar] also be present in the same
 /// page to show the user a preview of the changes being made.
 class AvatarMakerCustomizer extends StatefulWidget {
+  // Add static field to hold current controller
+  static AvatarMakerController? _currentController;
+
+  // Add static getter
+  static AvatarMakerController? get currentController => _currentController;
+
   /// To define the height of the component.
   final double? scaffoldHeight;
 
@@ -84,6 +90,7 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
 
     setState(() {
       avatarMakerController = _controller;
+      AvatarMakerCustomizer._currentController = _controller;
       tabController = TabController(
         length: nbrDisplayedCategories,
         vsync: this,
@@ -104,6 +111,8 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
     if (avatarMakerControllerListenerDisposer != null) {
       avatarMakerControllerListenerDisposer!();
     }
+
+    AvatarMakerCustomizer._currentController = null;
     // This ensures that unsaved edits are reverted
     avatarMakerController.restoreState();
     super.dispose();
