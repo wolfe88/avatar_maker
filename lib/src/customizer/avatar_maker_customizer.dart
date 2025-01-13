@@ -42,6 +42,9 @@ class AvatarMakerCustomizer extends StatefulWidget {
   /// in your app to let users save their selection manually.
   final bool autosave;
 
+  /// Callback to notify when the tab index changes
+  final ValueChanged<int>? onTabIndexChanged;
+
   /// Creates a widget UI to customize the AvatarMaker
   ///
   /// You may provide a [AvatarMakerThemeData] instance to adjust the appearance of this
@@ -61,6 +64,7 @@ class AvatarMakerCustomizer extends StatefulWidget {
     AvatarMakerThemeData? theme,
     this.customizedPropertyCategories,
     this.autosave = false,
+    this.onTabIndexChanged,
   })  : this.theme = theme ?? AvatarMakerThemeData.defaultTheme,
         super(key: key);
 
@@ -98,7 +102,9 @@ class _AvatarMakerCustomizerState extends State<AvatarMakerCustomizer>
     });
 
     tabController.addListener(() {
-      setState(() {});
+      setState(() {
+        widget.onTabIndexChanged?.call(tabController.index);
+      });
     });
     avatarMakerControllerListenerDisposer = _controller.addListener(() {
       setState(() {});

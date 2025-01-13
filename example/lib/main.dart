@@ -156,6 +156,11 @@ class _NewPageState extends State<NewPage> {
                           HairColors.values[index];
                       print(AvatarMakerCustomizer.currentController!
                           .selectedOptions[PropertyCategoryIds.HairColor]);
+                      print(AvatarMakerCustomizer
+                          .currentController!.selectedOptions
+                          .toString());
+                      print(AvatarMakerCustomizer.currentController!
+                          .getStoredOptions());
 
                       setState(() {});
                     },
