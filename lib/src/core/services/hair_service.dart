@@ -7,7 +7,7 @@ class HairService {
   /// Replace the declarations of the hairs color placeholder with the
   /// selected color.
   static String generateHairStyle({
-    HairStyles style = HairStyles.Eyepatch,
+    HairStyles style = HairStyles.Long,
     HairColors color = HairColors.Black,
   }) {
     return style.svg.replaceAll(TO_REPLACE_WITH_HAIRS_COLOR, color.hexCode);
@@ -16,15 +16,12 @@ class HairService {
   /// Draw the SVG of an hair with the type and the color given in
   /// parameter.
   static String drawSVG({
-    HairStyles style = HairStyles.Eyepatch,
+    HairStyles style = HairStyles.Long,
     HairColors color = HairColors.Black,
   }) {
     return """
       <svg width="100px" height="100px" viewBox="10 0 250 250">
-        ${generateHairStyle(
-      color: color,
-      style: style,
-    )}
+        ${generateHairStyle(color: color, style: style)}
       </svg>
     """;
   }
